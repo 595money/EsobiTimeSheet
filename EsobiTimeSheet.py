@@ -52,8 +52,8 @@ def foo():
         file_dict[i] = f
         print(i, f)
         i = i + 1
-    id = int(input('請輸入time_sheet檔對應的id' + '\n' + '檔案id:').strip())
-    return path + file_dict[id]
+    file_id = int(input('請輸入time_sheet檔對應的id' + '\n' + '檔案id:').strip())
+    return path + file_dict[file_id]
 
 
 try:
